@@ -372,3 +372,298 @@ body{
   justify-content: center;
 
 }
+
+.main-page{
+  max-width: 1800px;
+  width: 100%;
+  min-height: 4271px;
+
+}
+
+.header{
+background-image: url(../images/the-sky.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+max-width: 1770px;
+width: 100%;
+height: 820px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+
+.imag-container{
+  width:100%;
+  max-width: 500px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+
+
+.text{
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 26px;
+  /* identical to box height, or 54% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+
+
+}
+
+.more-text{
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height, or 118% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 6.82px;
+  color: #FFFFFF;
+ 
+
+
+  
+}
+}
+
+.search-travel{
+  max-width: 700px;
+  width: 100%;
+  min-height:111px;
+  display: inline-block;
+
+
+
+
+.travel-des{
+  max-width: 500px;
+  width: 100%;
+  min-height: 60px;
+  background-color: white;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  align-self: flex-end;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.8px;
+
+  color: #999999;
+  outline: none;
+
+
+}
+
+.travel-des:hover{
+  background-color: lightblue;
+
+}
+
+.travel-search{
+  max-width: 150px;
+  width: 100%;
+  min-height: 60px;
+
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: end;
+
+  text-align:center;
+  Vertical-align: Center;
+  Letter-spacing: 1.2px;
+  /* identical to box height, or 186% */
+
+  border: 2px solid white;
+  background: #5474FD;
+
+}
+
+.travel-search:hover{
+  background-color: lawngreen;
+
+}
+
+}
+
+.more-info{
+  min-height: 137px;
+  max-width: 108px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+
+  .Scroll-do{
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+
+  letter-spacing: 2.8px;
+  color: #FFFFFF;
+  }
+}
+
+
+.navigation{
+  max-width: 1770px;
+  width:100%;
+  min-height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #5474FD;
+}
+.navigate{
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+
+
+}
+
+.nav-links{
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activ-link{
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.nav-link{
+
+  text-decoration: none;
+  font-family: Aleo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height, or 186% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+
+
+a:hover{
+  color: red;
+}
+
+.burger{
+  display: none;
+}
+
+@media screen and (max-width: 768px){
+.burger{
+  display: block;
+  cursor: pointer;
+}
+
+ul.nav-links{
+  display: none;
+  flex-direction: column;
+}
+
+}
+
+
+@media screen and (max-width: 320px){
+
+.imag-container{
+
+  .text{
+   
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+  
+  }
+
+  .more-text{
+   
+    font-size: 12px;
+    line-height: 18px;      
+  }
+}
+
+.activ-link{
+  max-width: 140px;
+  width:100%;
+
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+ }
+
+  
+
+.search-travel{
+
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.burger{
+  max-width: 50px;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+  justify-self: center;
+  }
+
+ul.nav-links{
+  display: none;
+  flex-direction: column;
+}
+}
